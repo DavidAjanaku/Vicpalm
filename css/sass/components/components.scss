@@ -1,0 +1,21 @@
+.image{
+    position: relative;
+   
+
+    &--photo{
+        position: absolute;
+        width: 55%;
+
+
+        &__photo1{
+            top: -5rem;
+            left: 0;
+        }
+        &__photo2{
+            top: 2rem;
+            left: 20rem;
+        } 
+    }
+
+   
+}

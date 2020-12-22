@@ -1,0 +1,26 @@
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-of-1 {
+  float: left;
+  margin-top: 20px;
+  width: calc((100% - 10rem) / 2);
+}
+
+.col-of-1:not(:last-child) {
+  margin-right: 5rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e99133), to(#ee6432));
+  background-image: linear-gradient(to right, #e99133, #ee6432);
+  -webkit-background-clip: text;
+}
+/*# sourceMappingURL=typography.css.map */

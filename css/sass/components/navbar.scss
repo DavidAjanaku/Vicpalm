@@ -1,0 +1,25 @@
+.navigation__bar{
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.navigation__links{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.navigation__link{
+    text-decoration: none;
+    padding: 10px;
+
+    &:link,
+    &:visited{
+        color: $primarybackground2;
+    }
+
+   
+}
+

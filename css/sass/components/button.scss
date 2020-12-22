@@ -1,0 +1,25 @@
+.title__link{
+    text-decoration: none;
+    background: $primarybackground2;
+    border-radius: 100px;
+    padding: 10px;
+    animation: moveUpward .5s ease-out .75s;
+    animation-fill-mode: backwards;
+
+    &:link,
+    &:visited{
+        color: $color;
+    }
+
+    &:hover{
+        background:darken($primarybackground2, 10%);
+        font-size: 17px;
+        transform: translateY(-3px);
+    }
+
+    a:hover{
+        transform: scale(1.5);
+    }
+
+    
+}

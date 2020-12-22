@@ -1,0 +1,11 @@
+.title {
+  position: absolute;
+  top: 22rem;
+  left: 5rem;
+}
+
+.title__main {
+  font-size: 6vw;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=utilities.css.map */
